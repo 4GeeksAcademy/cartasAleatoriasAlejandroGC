@@ -1,1 +1,22 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: #0e7e12;
+}
+.card {
+  aspect-ratio: 2/3;
+  font-size: 700%;
+  min-width: 100px;
+}
+.reverse {
+  transform: rotate(180deg);
+}
+.value {
+  font-size: 2em;
+}
+@media (width <= 576px) {
+  .card {
+    font-size: 25vw;
+  }
+}
